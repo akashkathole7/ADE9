@@ -120,6 +120,72 @@ total_dataset = {
 - Annual growth: ~9,600 questions
 - 3-year projection: ~30,000 questions
 
+Monthly Question Generation (~100 per technology)
+
+
+Each technology gets approximately 100 new questions per month
+This includes both MCQs and coding questions
+Breakdown per technology per month:
+
+~70 MCQs (Multiple Choice Questions)
+~30 coding questions
+
+
+These are generated through:
+
+Automated generation (using RAG)
+Human review and validation
+User feedback incorporation
+Regular content updates
+
+
+
+
+Annual Growth (~9,600 questions)
+The calculation:
+
+
+100 questions × 8 technologies = 800 questions per month
+800 questions × 12 months = 9,600 questions per year
+Breakdown by technology annually:
+Java: ~1,200 questions
+Python: ~1,200 questions
+ReactJS: ~1,200 questions
+Go: ~1,200 questions
+Angular: ~1,200 questions
+AWS: ~1,200 questions
+Data Science: ~1,200 questions
+AI/ML: ~1,200 questions
+
+
+3-Year Projection (~30,000 questions)
+The calculation:
+
+
+Year 1: 9,600 questions
+Year 2: 9,600 questions
+Year 3: 9,600 questions
+Initial dataset: ~1,320 questions
+Total after 3 years: ~30,120 questions
+
+Why these numbers make sense:
+
+Sustainability: This growth rate is manageable for content quality control
+Coverage: Provides enough questions for:
+
+Different difficulty levels
+Various subtopics within each technology
+Regular assessment rotation
+
+
+Quality Control: Allows time for:
+
+Thorough validation
+Technical review
+User feedback incorporation
+Content updates
+
+
 ## 3. Storage Solution Architecture
 
 ### 3.1 Hybrid Storage Approach
