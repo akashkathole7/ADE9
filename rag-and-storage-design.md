@@ -42,9 +42,9 @@ def create_embeddings():
         chunk_overlap=200
     )
     return {
-        'chunk_size': 1000,  # Optimal for technical questions
-        'overlap': 200,      # Ensures context continuity
-        'model': 'text-embedding-ada-002'  # OpenAI's recommended model
+        'chunk_size': 1000,  
+        'overlap': 200,    
+        'model': 'text-embedding-ada-002'  
     }
 ```
 
